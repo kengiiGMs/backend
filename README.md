@@ -1,28 +1,30 @@
-# Adonis API application
+# API Básica usando Adonis.JS 
+Projeto criado com o objetivo de aprender a utilizar o `AdonisJS` com banco de dados `MySQL`.
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+## ⚙ Pré-requisitos
+* `Node.js` instalado
+* `MySQL` em funcionamento
+* Um banco de dados chamado `adonis` criado manualmente
 
-## Setup
 
-Use the adonis command to install the blueprint
+## 🛠️ Executando o projeto
 
-```bash
-adonis new yardstick --api-only
+Instalar as dependências
+```
+npm install
 ```
 
-or manually clone the repo and then run `npm install`.
-
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
+Rodar as migrations
+```
 adonis migration:run
 ```
+
+Iniciar a api
+```
+adonis serve --dev
+```
+
+
+
+
